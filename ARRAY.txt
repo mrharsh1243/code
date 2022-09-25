@@ -1,0 +1,91 @@
+>> What is an Array?
+
+>>> An array is a collection of items of same data type stored 
+at contiguous memory locations. 
+
+>>Is the array always of fixed size?
+>>>array has has a fixed size which is allocated when array is created
+
+>>Types of indexing in an array
+>>>
+   .) 0 (zero-based indexing): The first element of the array is indexed by a subscript of 0.
+   .) 1 (one-based indexing): The first element of the array is indexed by the subscript of 1.
+   .) n (N-based indexing): The base index of an array can be freely chosen.
+>>how an array can be initialized ?
+>>>
+   1. Passing no value within the initializer
+        e.g.
+            int arr[ 5 ] = {  };
+   2. By passing specific values within the initializer
+        e.g.
+           int arr[ 5 ] = { 1 , 2 , 3 , 4 , 5 };
+   3. By passing specific values within the initializer but not declaring the size
+        e.g.
+           int arr[  ] = { 1 , 2 , 3 , 4 , 5 };
+   4. Universal Initialization 
+       (can avoid "=" sign)
+       e.g.
+           int arr[ ]  { 1 , 2 , 3 , 4 , 5 };
+>>What are the different operations on the array?
+>>>
+   1. Insertion in Array
+      Pseudo Code:
+
+      // to insert a value= 10 at index position 2;
+
+        arr[ 2 ] = 10;
+      
+      Time Complexity: 
+
+     # O(1) to insert a single element
+     # O(N) to insert all the array elements [where N is the size of the array]
+    
+    
+   2. Access elements in Array
+
+       // to access array element at index position 2, we simply can write
+
+          return arr[ 2 ] ;
+     
+   3. Searching in Array
+
+      Pseudo Code:
+
+     // searching for value 2 in the array;
+
+          Loop from i = 0 to 5:
+         check if  arr[i] = 2:
+          return true;
+
+Types of arrays : 
+One dimensional array (1-D arrays)
+Multidimensional array
+
+
+Quick Questions;
+1. What is an array in data structure with example?
+
+An array is a collection of items of the same data type stored 
+at contiguous memory locations. 
+Ex. int arr[5] = {1,2,3,4,5};
+
+
+
+2. What are the 3 types of arrays?
+
+Indexed arrays
+Multidimensional arrays
+Associative arrays(DICTONARY)
+
+3. What data structure is an array?
+
+An array is a LINER DATA structure.
+
+4. Difference between array and structure?
+
+The structure can contain variables of different types 
+but an array only contain variables of the same type.
+
+
+    
+   
